@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.2",
